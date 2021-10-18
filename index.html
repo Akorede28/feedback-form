@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    <title>Feedback Form</title>
+  </head>
+  <h3>Feedback Form</h3>
+  <body>
+    <div class="container">
+      <!-- feedback form -->
+      <form>
+        <!-- username -->
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="uname"
+          name="uname"
+          placeholder="enter username"
+          required
+        />
+
+        <!-- email address -->
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="enter email"
+          required
+        />
+
+        <!-- salary -->
+        <label for="salary">Salary:</label>
+        <input
+          type="text"
+          name="salary"
+          id="salary"
+          placeholder="enter salary"
+          required
+        />
+
+        <!-- priorities -->
+        <label for="priorities">Priority:</label>
+        <select name="priority" id="priority" required>
+          <option value="">None</option>
+          <option value="medium_priority">Medium Priority</option>
+          <option value="high_priority">High Priority</option>
+        </select>
+
+        <!-- comment/remarks -->
+        <label for="comment/remarks">Comment/Remarks:</label>
+        <textarea
+          name="subject"
+          id="subject"
+          cols="40"
+          rows="10"
+          placeholder="write something..."
+          required
+        ></textarea>
+
+        <!-- submit -->
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </div>
+    <!-- feedback form ends -->
+    <script src="./Javascript/feedback.js"></script>
+  </body>
+</html>

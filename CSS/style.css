@@ -1,0 +1,63 @@
+/* container style starts */
+.container {
+  border-radius: 5px;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+/* container style ends */
+
+/* h3 style starts */
+h3 {
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+  font-size: larger;
+  font-family: sans-serif;
+}
+/* h3 style ends */
+
+/* [type=text] and select style starts */
+input[type="text"],
+select {
+  padding: 12px 20px;
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+/* [type=text] and select style ends */
+
+/* [type=email] style starts */
+input[type="email"] {
+  padding: 12px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+/* [type=email] style ends */
+
+/* textarea style starts */
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin: 8px 0;
+}
+/* textarea style ends */
+
+/* [type=submit] style start */
+input[type="submit"] {
+  background-color: aquamarine;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin: 8px 0;
+}
+/* [type=submit] style ends */
